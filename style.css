@@ -1,7 +1,145 @@
+span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body{
+	font-size: 16px;
+}
+
+section{
+	padding: 2% 4% 2% 4% ;
+}
+
+image{
+	display: inline-block;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  nav li {
+	display: inline-block;
+  }
+  
+  nav li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  nav li a:hover {
+	background-color: #5b69b9;
+  }
+
+  /* Classes */
+
+.youtube_video{
+	height: 630px;
+	width: 1120px;
+}
+
+.fun_fact_list{
+	display: inline-block;
+	margin-left: 3%;
+}
+
+.section_style1{
+	background: #C9EEFF;
+}
+
+.section_style2{
+	background: #97DEFF;
+}
+
+/* .fun_fact_image{
+	display: inline-block;
+	margin-left: 3%;
+	height: 10%;
+	width: 10%;
+} */
+
+ul.fun_fact_list li {
+	list-style: none;
+	padding-left: 50px;
+	position: relative;
+  }
+  
+ul.fun_fact_list li:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-size: contain;
+	background-image: url("resources/images/basketball_logo.jpg");
+  }
+
+.list-item-funfact{
+	margin-bottom:2%
+  }
+
+  .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0;
+  }
+  
+  .gallery-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .gallery-item {
+	width: calc(33.33% - 10px);
+	margin-bottom: 20px;
+  }
+  
+  .gallery-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+
+  /* IDs */
+
 #menu
 {
+	padding: 2%;
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: #62CDFF;
+}
+
+#logo_img{
+	width: 25%;
+	height: 10%;
+}
+
+#formal_img{
+	margin-left: 15%;
+	margin-right: 3%;
+	height: 25%;
+	width: 16%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#statue_img{
+	height: 10%;
+	width: auto;
+	margin: 3%;
 }
