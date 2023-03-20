@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
@@ -56,9 +56,6 @@
 </section>
 <section id="fun_facts" class="section section_style2">
   <br/>
-  <!-- <div class="fun_fact_image">
-    <image src="resources/images/statue.png" id="statue_img" alt="statue photo">
-  </div> -->
   <div>
   <image src="resources/images/statue.png" id="statue_img" alt="statue photo" ></image>
   <div class="fun_fact_list center">
@@ -84,24 +81,24 @@
 <div class="gallery">
   <div class="gallery-row">
     <div class="gallery-item">
-      <img src="/resources/images/gallery/with_obama.jpeg" alt="Image 1">
+      <img src="resources/images/gallery/with_obama.jpeg" alt="Image 1">
     </div>
     <div class="gallery-item">
-      <img src="/resources/images/gallery/skyhook.jpeg" alt="Image 2">
+      <img src="resources/images/gallery/skyhook.jpeg" alt="Image 2">
     </div>
     <div class="gallery-item">
-      <img src="/resources/images/gallery/trophy.jpeg" alt="Image 3">
+      <img src="resources/images/gallery/trophy.jpeg" alt="Image 3">
     </div>
   </div>
   <div class="gallery-row">
     <div class="gallery-item">
-      <img src="/resources/images/gallery/with_lbj.jpeg" alt="Image 4">
+      <img src="resources/images/gallery/with_lbj.jpeg" alt="Image 4">
     </div>
     <div class="gallery-item">
-      <img src="/resources/images/gallery/skyhook2.jpeg" alt="Image 5">
+      <img src="resources/images/gallery/skyhook2.jpeg" alt="Image 5">
     </div>
     <div class="gallery-item">
-      <img src="/resources/images/gallery/family.jpeg" alt="Image 6">
+      <img src="resources/images/gallery/family.jpeg" alt="Image 6">
     </div>
   </div>
 </div>
@@ -126,7 +123,7 @@
   <div class="fb-like" data-href="https://web-development-environments-2023.github.io/208649913/" data-width="" data-layout="button " data-action="" data-size="large" data-share="true"></div>
   <div id="qrcoder" class="section section_style1 center">
     <h1>Share with your friends, Scan me ! </h1>
-    <img src="/resources/images/QR.png" alt="QR code">
+    <img src="resources/images/QR.png" alt="QR code">
   </div>
 </section>
 
@@ -213,7 +210,7 @@
     messageTextarea.value = currentMessage + selectedSmiley;
   }
 </script>
-<script type="text/javascript">
+<script >
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
@@ -221,7 +218,7 @@ $(function(){
   });
 });
 </script>
-<script type="text/javascript">
+<script>
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
